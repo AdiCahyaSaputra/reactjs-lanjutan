@@ -9,6 +9,7 @@ import AboutTeam from './AboutTeam'
 
 import Blog from './Blog'
 import BlogDetail from './BlogDetail'
+import Login from './Login'
 import NotFound from './NotFound'
 
 // import Button from './Button'; // g usah .js juga dah tau kok react mah
@@ -51,6 +52,7 @@ function App() {
       <Routes>
         <Route path="blog" element={<Blog />} />
         <Route path="blog/:artikel" element={<BlogDetail />} />
+        <Route path="login" element={<Login />} />
         
         <Route path="*" element={<NotFound />} />
         
